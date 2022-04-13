@@ -1,74 +1,85 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>Inquire for More</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
-  </head>
-  <body>
-        <style> 
-      body{
-        background-image: url('Folly.jpg');
-        background-repeat: no-repeat;
-        /* background-width: 10000vw;
-        background-height: 1000vh; */
-        background-size: 120%;
-        font-family:'Times New Roman', serif;
-        
-      }
-    </style>
-     <nav> 
-    <ul class="nav-links"> 
-      <a class="nav-anchor" href= "index.html"> Home </a>
-      <a class="nav-anchor" href= "ToDo.html"> Main Attraction </a>
-      <a class="nav-anchor" href= "Contact.html"> Inquire </a>
-    </ul>
-    </nav>
-    <h1 style=text-align:center;> Contact Us </h1>
-    <p style=text-align:center;> Please fill out the form below for more Info. We will respond in <em>48 business hours</em>! We can't wait to see you in Charleston soon~ </p>
 
-    <form class="form" action="process.php" method="post" style= text-align:center;>
-      <input type="text" name= "first-name" placeholder=" First Name"> 
-    </input>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Inquire for More</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <style>
+    body {
+      background-image: url('Folly.jpg');
+      background-repeat: no-repeat;
+      /* background-width: 10000vw;
+        background-height: 1000vh; */
+      background-size: 120%;
+      font-family: 'Times New Roman', serif;
+
+    }
+  </style>
+  <nav>
+    <ul class="nav-links">
+      <a class="nav-anchor" href="index.html"> Home </a>
+      <a class="nav-anchor" href="ToDo.html"> Main Attraction </a>
+      <a class="nav-anchor" href="Contact.html"> Inquire </a>
+    </ul>
+  </nav>
+  <header>
+    <h1 style=text-align:center;> Contact Us </h1>
+    <p style=text-align:center;> Please fill out the form below for more Info. We will respond in <em>48 business
+        hours</em>! We can't wait to see you in Charleston soon~ </p>
+  </header>
+  <section>
+    <form class="form" action="process.php" method="post" style=text-align:center;>
+      <input type="text" name="first-name" placeholder=" First Name">
+      </input>
       <br> </br>
-      <br> 
-      <input type="text" name= "last-name" placeholder=" Last Name"> 
-    </input>
+      <br>
+      <input type="text" name="last-name" placeholder=" Last Name">
+      </input>
       <br></br>
-      <br> 
-    <input type="email" name= "email" placeholder="Best Email"> 
-    </input>
+      <br>
+      <input type="email" name="email" placeholder="Best Email">
+      </input>
       <br> </br>
-      <br> 
-    <input type="Phone Number" name= "Phone Number" placeholder="Best Phone Number"> 
-    </input>
+      <br>
+      <input type="Phone Number" name="Phone Number" placeholder="Best Phone Number">
+      </input>
       <br></br>
-      <br> 
-      <div> 
+      <br>
+      <div>
         <label class="date"> Arrival Date </label>
         <input type="date" name="Arrival"> </input>
-        </div>
-      <br> 
-      <div> 
+      </div>
+      <br>
+      <div>
         <label class="date"> Departure Date </label>
         <input type="date" name="Departure"> </input>
-        </div>
+      </div>
       <br>
-      <br> 
+      <br>
       <div>
-        <textarea name="message" placeholder="Leave any comments, questions, or details you'd like us to know"></textarea> 
-         </div>
-        <br></br> 
-      <input type="submit" name="Submit" value="Submit"><style> body{
-        padding-bottom:60px;
-      }
-      </style></input>
+        <textarea name="message"
+          placeholder="Leave any comments, questions, or details you'd like us to know"></textarea>
+      </div>
+      <br></br>
+      <input type="submit" name="Submit" value="Submit">
+      <style>
+        body {
+          padding-bottom: 60px;
+        }
+      </style>
+      </input>
     </form>
-<footer> 
-  <p>Copyright &copy; 2022 website designed by Sam S.
-  </p>
-</footer>
-    <script src="script.js"></script>
-  </body>
+  </section>
+  <footer>
+    <p>Copyright &copy; 2022 website designed by Sam S.
+    </p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
 </html>

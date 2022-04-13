@@ -4,8 +4,8 @@ body {
   margin: 0;
 }
 
-nav{
-  padding:0px;  
+nav {
+  padding: 0px;
   background-image: linear-gradient(to bottom, rgba(114, 114, 114, 0.99), rgba(255, 255, 255, 0.0));
   position: fixed;
   left: 0px;
@@ -13,6 +13,7 @@ nav{
   height: 50px;
   width: 100vw;
 }
+
 .index-hero {
   background-image: url('StMike.png');
   background-repeat: no-repeat;
@@ -23,7 +24,7 @@ nav{
   left: 0;
 }
 
-.index-div{
+.index-div {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -33,27 +34,29 @@ nav{
 .index-heading {
   text-align: center;
   font-size: 30pt;
-  padding-bottom: 18px; 
+  padding-bottom: 18px;
   color: white;
 }
 
-.index-para{
-  margin-left:180px; 
-  margin-right:180px;
+.index-para {
+  margin-left: 180px;
+  margin-right: 180px;
   font-size: 20pt;
-  background-color: rgba(166,166,166,0.7);
-  padding: 10px; 
+  background-color: rgba(166, 166, 166, 0.7);
+  padding: 10px;
   border-radius: 25px;
-  
+
 }
-.index-bottom-content{
+
+.index-bottom-content {
   padding-bottom: 100px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
 }
-.index-img-container{
+
+.index-img-container {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -69,32 +72,34 @@ nav{
   display: flex;
   flex-direction: row;
   justify-content: end;
-  padding-right: 15px; 
+  padding-right: 15px;
 }
 
-.form{
+.form {
   padding-top: 40px;
   background-position: absolute;
-  background-color: rgba(255,255,255,0.6);
+  background-color: rgba(255, 255, 255, 0.6);
   border: 5px;
-  margin-left: 450px; 
-  margin-right: 450px; 
+  margin-left: 450px;
+  margin-right: 450px;
   padding: 15px;
-  border-radius: 25px; 
-  
+  border-radius: 25px;
+
 }
 
-.food{
-  background-color: rgba(255,255,255,0.4);
+.food {
+  background-color: rgba(255, 255, 255, 0.4);
   border: 15px;
   padding: 20px;
   border-radius: 25px;
   margin-right: 60px;
-  margin-left: 50px; 
+  margin-left: 50px;
   font-size: 14pt;
- 
+
 }
-.food, p{
+
+.food,
+p {
   text-align: center;
 }
 
@@ -103,92 +108,93 @@ nav{
   clear: left;
 }
 
-footer{
+footer {
   position: fixed;
   bottom: 0vw;
   width: 100vw;
   text-align: center;
   background-image: linear-gradient(to top, rgba(114, 114, 114, 0.90), rgba(255, 255, 255, 0.0));
-  background-image: absolute; 
-  left: 0px;  
+  background-image: absolute;
+  left: 0px;
   margin-top: 90px;
 }
 
-.index-image{
-  border: 10px solid white; 
+.index-image {
+  border: 10px solid white;
   image-size: 40%;
-  image-align: center; 
-  margin-left: 0px; 
-  postion: absolute; 
+  image-align: center;
+  margin-left: 0px;
+  postion: absolute;
 
 }
 
-.edmund{
-  border: 10px solid white; 
+.edmund {
+  border: 10px solid white;
   image-size: 40%;
-  image-align: center; 
-  margin-left: 60px; 
-  postion: absolute; 
+  image-align: center;
+  margin-left: 60px;
+  postion: absolute;
 
 }
 
-.edmund2{
-  border: 10px solid white; 
-  image-size: 40%; 
-  margin-left: 530px; 
+.edmund2 {
+  border: 10px solid white;
+  image-size: 40%;
+  margin-left: 530px;
   /* position: relative; 
   left: 5px; */
   margin-top: 40px;
 }
 
-.tdtext{
+.tdtext {
   margin-right: 60px;
-  margin-left: 50px; 
+  margin-left: 50px;
   font-size: 14pt;
-  background-color: rgba(255,255,255,0.4);
+  background-color: rgba(255, 255, 255, 0.4);
   border: 15px;
   padding: 20px;
   border-radius: 25px;
 }
 
-.date{
-  color:white;
-  background-color: rgba(166,166,166, .85);
-  margin-right: 5px; 
-  padding-left: 3px; 
-  
+.date {
+  color: white;
+  background-color: rgba(166, 166, 166, .85);
+  margin-right: 5px;
+  padding-left: 3px;
+
 }
 
-.ft-images{
-  border: 10px solid white; 
-  image-size: 40%;
+.ft-images {
+  border: 10px solid white;
+  image size: 40%;
   /* margin-left: 60px;  */
-  margin:40px;
-  float:left;  
+  margin: 40px;
+  float: left;
 }
 
-.box{
+.box {
   height: 100%;
   width: 100%;
   padding: 20%;
   margin: 0;
   border: 40% solid white;
-  background-color: white; 
+  background-color: white;
 
-/* .h1{
+  /* .h1{
   font-size: 32pt;
   text-align: center;
   margin-left: 350px;   
   } */
 
-.h2{
-  font-size:22pt;
-}
-
-food-head{
-    font-size:22pt; 
-    text-margin:65vw;
+  .h2 {
+    font-size: 22pt;
   }
-/* .ma{
+
+  food-head {
+    font-size: 22pt;
+    text margin: 65vw;
+  }
+
+  /* .ma{
     
   } */
