@@ -121,28 +121,29 @@ footer {
 
 .index-image {
   border: 10px solid white;
-  image-size: 40%;
-  image-align: center;
+  size: 40%;
+  text-align: center;
   margin-left: 0px;
-  postion: absolute;
+  position: absolute;
 
 }
 
+
 .edmund {
   border: 10px solid white;
-  image-size: 40%;
-  image-align: center;
+  size: 40%;
+  text-align: center;
   margin-left: 60px;
-  postion: absolute;
+  position: absolute;
 
 }
 
 .edmund2 {
   border: 10px solid white;
-  image-size: 40%;
+  size: 40%;
   margin-left: 530px;
-  /* position: relative; 
-  left: 5px; */
+  position: relative;
+  left: 5px;
   margin-top: 40px;
 }
 
@@ -166,8 +167,8 @@ footer {
 
 .ft-images {
   border: 10px solid white;
-  image size: 40%;
-  /* margin-left: 60px;  */
+  size: 40%;
+  margin-left: 60px;
   margin: 40px;
   float: left;
 }
@@ -179,22 +180,24 @@ footer {
   margin: 0;
   border: 40% solid white;
   background-color: white;
+}
 
-  /* .h1{
+.h1 {
   font-size: 32pt;
   text-align: center;
-  margin-left: 350px;   
-  } */
+  margin-left: 350px;
+}
 
-  .h2 {
-    font-size: 22pt;
-  }
+.h2 {
+  font-size: 22pt;
+}
 
-  food-head {
-    font-size: 22pt;
-    text margin: 65vw;
-  }
+food-head {
+  font-size: 22pt;
+  margin: 65vw;
+}
 
-  /* .ma{
+
+/* .ma{
     
   } */
