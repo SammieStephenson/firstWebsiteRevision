@@ -42,7 +42,7 @@ nav {
   margin-left: 180px;
   margin-right: 180px;
   font-size: 20pt;
-  background-color: rgba(166, 166, 166, 0.7);
+  background-color: rgba(128, 128, 128, 0.85);
   padding: 10px;
   border-radius: 25px;
 
@@ -53,13 +53,13 @@ nav {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  text-align: center;
+  align-items: center;
 }
 
 .index-img-container {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: left;
 }
 
 .nav-anchor {
@@ -73,6 +73,7 @@ nav {
   flex-direction: row;
   justify-content: end;
   padding-right: 15px;
+  list-style: none;
 }
 
 .form {
@@ -122,9 +123,9 @@ footer {
 .index-image {
   border: 10px solid white;
   size: 40%;
-  text-align: center;
+  align-items: center;
   margin-left: 0px;
-  position: absolute;
+  position: relative;
 
 }
 
@@ -134,14 +135,15 @@ footer {
   size: 40%;
   text-align: center;
   margin-left: 60px;
-  position: absolute;
+  position: relative;
 
 }
 
 .edmund2 {
   border: 10px solid white;
   size: 40%;
-  margin-left: 530px;
+  text-align: center;
+  margin-left: 380px;
   position: relative;
   left: 5px;
   margin-top: 40px;
@@ -159,7 +161,7 @@ footer {
 
 .date {
   color: white;
-  background-color: rgba(166, 166, 166, .85);
+  background-color: rgba(89, 89, 89, .85);
   margin-right: 5px;
   padding-left: 3px;
 
